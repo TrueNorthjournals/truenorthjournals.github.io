@@ -4999,3 +4999,17 @@ td:last-child {
         margin-right: 0;
     }
 }
+   /* Other styles above */
+
+/* Hide the Go Top Button */
+#go-top {
+    display: none;
+}
+
+/* Adjust font size for mobile screens */
+@media screen and (max-width: 600px) {
+    .intro-header__big-type {
+        font-size: calc(10vw + 10px); /* Adjust this value as necessary */
+    }
+}
+
