@@ -5009,7 +5009,7 @@ td:last-child {
 /* Adjust font size for mobile screens */
 @media screen and (max-width: 800px) {
     .intro-header__big-type {
-        font-size: calc(10vw + 250px); /* Adjust this value as necessary */
+        font-size: calc(10vw + 150px); /* Adjust this value as necessary */
     }
 }
 
