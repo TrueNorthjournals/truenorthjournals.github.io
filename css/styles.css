@@ -5007,9 +5007,9 @@ td:last-child {
 }
 
 /* Adjust font size for mobile screens */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     .intro-header__big-type {
-        font-size: calc(15vw + 15px); /* Adjust this value as necessary */
+        font-size: calc(25vw + 25px); /* Adjust this value as necessary */
     }
 }
 
