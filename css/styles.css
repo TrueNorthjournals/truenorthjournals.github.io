@@ -5023,19 +5023,19 @@ td:last-child {
 
     /* Force the image to take full width */
     #about .intro-block-content__pic img {
-        width: 100% !important;
+        width: 90% !important;
         height: auto !important;
         object-fit: cover !important;
     }
 
     /* Expand its container */
     #about .intro-block-content__pic {
-        width: 100% !important;
+        width: 90% !important;
     }
 
     /* Fix column resizing */
     .s-about__content-start {
-        width: 100% !important;
+        width: 90% !important;
     }
 }
 
