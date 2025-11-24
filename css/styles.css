@@ -5024,3 +5024,12 @@ td:last-child {
 .ss-go-top{
     display: none;
 }
+@media (max-width: 768px) {
+    .about-pic-primary img,
+    .intro-block-content__pic img {
+        width: 100%;
+        height: auto;
+        max-height: none;
+    }
+}
+
