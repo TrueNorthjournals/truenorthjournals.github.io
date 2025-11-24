@@ -5027,7 +5027,7 @@ td:last-child {
 @media (max-width: 768px) {
     .about-pic-primary img,
     .intro-block-content__pic img {
-        width: 100%;
+        width: 200%;
         height: auto;
         max-height: none;
     }
