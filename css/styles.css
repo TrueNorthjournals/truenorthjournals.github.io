@@ -3985,6 +3985,11 @@ td:last-child {
         width         : 100%;
         padding-inline: 0;
     }
+    .intro-header__big-type {
+    font-size  : 7rem !important;
+    line-height: 1;
+    margin-top : 0;
+}
 }
 
 @media screen and (max-width: 400px) {
@@ -4861,6 +4866,7 @@ td:last-child {
     transform-origin: left bottom;
     bottom          : calc(var(--bottom-padding) - var(--vspace-0_5));
     right           : calc(var(--gutter) + var(--vspace-0_75) - var(--width-label) - var(--vspace-1_75) - var(--vspace-0_75));
+    display: none;
 }
 
 .ss-go-top span {
@@ -5013,3 +5019,8 @@ td:last-child {
     }
 }
 
+
+
+.ss-go-top{
+    display: none;
+}
