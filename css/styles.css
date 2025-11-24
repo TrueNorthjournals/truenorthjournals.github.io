@@ -5019,17 +5019,18 @@ td:last-child {
     }
 }
 
-
-
-.ss-go-top{
-    display: none;
-}
+/* ---- Mobile About Image Fix ---- */
 @media (max-width: 768px) {
-    .about-pic-primary img,
-    .intro-block-content__pic img {
-        width: 200%;
-        height: auto;
-        max-height: none;
+    .s-about__content-start img {
+        width: 100% !important;
+        height: auto !important;
+        object-fit: cover !important;
+    }
+
+    .s-about__content-start {
+        width: 100% !important;
     }
 }
+
+
 
