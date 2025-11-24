@@ -5018,19 +5018,24 @@ td:last-child {
         font-size: calc(10vw + 50px); /* Adjust this value as necessary */
     }
 }
-
-/* ---- Mobile About Image Fix ---- */
+/* === FIX ABOUT IMAGE ON MOBILE === */
 @media (max-width: 768px) {
-    .s-about__content-start img {
+
+    /* Force the image to take full width */
+    #about .intro-block-content__pic img {
         width: 100% !important;
         height: auto !important;
         object-fit: cover !important;
     }
 
+    /* Expand its container */
+    #about .intro-block-content__pic {
+        width: 100% !important;
+    }
+
+    /* Fix column resizing */
     .s-about__content-start {
         width: 100% !important;
     }
 }
-
-
 
