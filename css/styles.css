@@ -5044,5 +5044,31 @@ td:last-child {
         text-align: left !important;
     }
 }
+/* General logo styles */
+.logo img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Footer logo size */
+.footer-logo {
+    width: 150px; /* Adjust size for desktop */
+}
+
+/* Header logo size */
+.header-logo-img {
+    width: 180px; /* Adjust size for desktop */
+}
+
+/* Responsive adjustments for mobile */
+@media (max-width: 768px) {
+    .footer-logo {
+        width: 120px; /* smaller for mobile */
+    }
+    .header-logo-img {
+        width: 140px; /* smaller for mobile */
+    }
+}
 
 
