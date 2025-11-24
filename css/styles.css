@@ -5038,5 +5038,11 @@ td:last-child {
         width: 99% !important;
     }
 }
+@media (max-width: 768px) {
+    /* Force ONLY the heading container back to left */
+    .s-about__content-start .section-header {
+        text-align: left !important;
+    }
+}
 
 
